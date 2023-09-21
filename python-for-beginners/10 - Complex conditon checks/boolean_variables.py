@@ -11,5 +11,5 @@ else:
 # Somewhere later in your code if you need to check if students is 
 # on honour roll, all I need to do is check the boolean variable
 # I set earlier in my code
-if honour_roll:
+if not honour_roll:
 	print('You made honour roll')

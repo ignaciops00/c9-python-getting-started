@@ -12,3 +12,17 @@
 # Charlie should be in room C
 # Khalid Haque should be in room OTHER
 # Xin Zhao should be in room Z
+name = input('What is your name? ')
+
+if name.capitalize().startswith('A') or name.capitalize().startswith('B'):
+    print('Go to room AB')
+elif name.capitalize().startswith('C'):
+    print('Go to room CD')
+else:
+    lastName = input('What is your last name? ')
+    if lastName.capitalize().startswith('Z'):
+        print('Go to room Z')
+    else:
+        print('Go to room OTHER')
+    
+    

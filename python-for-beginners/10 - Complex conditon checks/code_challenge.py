@@ -22,3 +22,25 @@
 # output: R. Ibach
 # first name: ReallyLongFirstName  last name: ReallyLongLastName
 # output: ReallyLongLastName
+
+name = input('What is your name? ')
+lastName = input('What is your last name? ')
+
+
+if len(name)<10:
+    nameLessTen = True
+else:
+    nameLessTen = False
+    
+if len(lastName)<10:
+    lastNameLessTen = True
+else:
+    lastNameLessTen = False
+        
+if nameLessTen and lastNameLessTen:
+    print(name + ' ' + lastName)
+elif not nameLessTen and lastNameLessTen < 10:
+    print(name[0:1] + '. '+lastName)
+elif nameLessTen and not lastNameLessTen:
+    print(name + ' '+lastName[0:1]+'.')
+else: print(lastName)

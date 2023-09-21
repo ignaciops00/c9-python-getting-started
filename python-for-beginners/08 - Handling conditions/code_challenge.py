@@ -4,9 +4,8 @@
 # If I enter 0.50 I should see the message "Tax rate is: 0" 
 price = input('how much did you pay? ')
 
-if price > 1.00:
+if float(price) >= 1.00:
 	tax = .07
-	print('Tax rate is: ' + str(tax))
-else
+else:
 	tax = 0
 print('Tax rate is: ' + str(tax))

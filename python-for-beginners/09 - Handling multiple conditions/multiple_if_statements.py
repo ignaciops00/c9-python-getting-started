@@ -4,8 +4,10 @@ tax = 0
 
 if province == 'Alberta': 
 	tax = 0.05
-if province == 'Nunavut':
+elif province == 'Nunavut':
 	tax = 0.05
-if province == 'Ontario':
+elif province == 'Ontario':
 	tax = 0.13
+else:
+    tax = .15
 print(tax)
