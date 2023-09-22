@@ -15,3 +15,5 @@ print(sentence.capitalize())
 # count will count the number of occurrences of the value specified
 # in the string, in this case how many times the letter 'a' appears
 print(sentence.count('a'))
+
+print(sentence[5:7])

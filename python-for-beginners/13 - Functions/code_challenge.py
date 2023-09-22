@@ -15,3 +15,19 @@
 # BONUS: Test your function with the values 6, 4 and divide 
 # Have your function return an error message when invalid values are received
 
+def calculator(x,y,operator):
+    result = 0
+    if operator.lower()=='add':
+        result = x + y
+    elif operator.lower()=='substract':
+        result = x - y
+    elif operator.lower()=='divide':
+        result = x / y
+    
+    return result
+
+print(calculator(6,4,'add'))
+
+print(calculator(6,4,'substract'))
+
+print(calculator(6,4,'divide'))
