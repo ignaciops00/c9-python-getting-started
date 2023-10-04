@@ -1,5 +1,5 @@
 # Import datetime class from datetime library to simplify calls to datetime.now()
-from datetime import datetime
+from datetime import *
 
 # Create a function called print_time
 # This function will print the message and current time

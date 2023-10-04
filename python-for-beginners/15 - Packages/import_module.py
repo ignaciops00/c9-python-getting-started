@@ -4,7 +4,7 @@ helpers.display('Not a warning')
 
 # import all into current namespace
 from helpers import *
-display('Not a warning')
+display('Not a warning',True)
 
 # import specific items into current namespace
 from helpers import display

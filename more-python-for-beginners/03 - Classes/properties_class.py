@@ -1,18 +1,18 @@
 class Presenter():
 	def __init__(self, name):
 		# Constructor
-		self.name = name
+		self.name3 = name
 
 	@property
-	def name(self):
+	def name3(self):
 		print('Retrieving name...')
 		return self.__name
-	@name.setter
-	def name(self, value):
+	@name3.setter
+	def name3(self, value):
 		# cool validation here
 		print('Validating name...')
 		self.__name = value
 
 presenter = Presenter('Chris')
-presenter.name = 'Christopher'
-print(presenter.name)
+presenter.name3 = 'Christopher'
+print(presenter.name3)

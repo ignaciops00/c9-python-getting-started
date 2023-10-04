@@ -23,7 +23,7 @@ parameters  = {'visualFeatures':'Description,Color',
 subscription_key = "cf229a23c3054905b5a8ad512edfa9dd"
 
 # Open the image file to get a file object containing the image to analyze
-image_path = "./TestImages/PolarBear.jpg"
+image_path = "./17 - JSON/TestImages/PolarBear.jpg"
 image_data = open(image_path, 'rb').read()
 
 # According to the documentation for the analyze image function

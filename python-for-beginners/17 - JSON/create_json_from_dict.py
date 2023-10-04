@@ -8,5 +8,7 @@ person_dict['City']='Seattle'
 # Convert dictionary to JSON object
 person_json = json.dumps(person_dict)
 
+
+
 # Print JSON object
 print(person_json)

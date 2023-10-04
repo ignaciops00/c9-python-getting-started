@@ -9,6 +9,6 @@ print('-- alphabetically --')
 print(presenters)
 
 # Sort by length of name (shortest to longest)
-presenters.sort(key=lambda item: len(item['name']))
+presenters.sort(key=lambda item: len(item['name']),reverse=False)
 print('-- length --')
-print(presenters)
+

@@ -19,3 +19,5 @@ first_name = input('Enter your first name: ')
 first_name_initial = get_initial(first_name) 
 
 print('Your initial is: ' + first_name_initial)
+
+print('Your initial is: ' + get_initial(first_name,False))

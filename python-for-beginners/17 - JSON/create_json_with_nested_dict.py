@@ -11,6 +11,7 @@ staff_dict ={}
 staff_dict['Program Manager']=person_dict
 # Convert dictionary to JSON object
 staff_json = json.dumps(staff_dict)
+staff_json_obj = json.loads(json.dumps(staff_dict))
 
 # Print JSON object
-print(staff_json)
+print(staff_json_obj['Program Manager']['City'])
