@@ -4,6 +4,9 @@ cwd = Path.cwd()
 # Get the parent directory
 parent = cwd.parent
 
+print(cwd.dri)
+
+
 # Is this a directory?
 print('\nIs this a directory? ' + str(parent.is_dir()))
 
