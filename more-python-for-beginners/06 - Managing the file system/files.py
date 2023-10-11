@@ -1,6 +1,8 @@
 from pathlib import Path
 cwd = Path.cwd()
 
+print('Path ' + cwd.drive)
+
 demo_file = Path(Path.joinpath(cwd, 'demo.txt'))
 
 # Get the file name

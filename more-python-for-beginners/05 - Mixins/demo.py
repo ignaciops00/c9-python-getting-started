@@ -23,5 +23,14 @@ def framework(item):
     if isinstance(item, Loggable):
         item.log()
 
+class JustLog(Loggable):
+    def __init__(self):
+        self.title = 'Just logging'
+        
+        
+
 sql_connection = SqlDatabase()
+jutlog = JustLog()
 framework(sql_connection)
+
+framework(jutlog)
