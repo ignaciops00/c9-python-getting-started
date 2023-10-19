@@ -1,12 +1,12 @@
 from pathlib import Path
 cwd = Path.cwd()
 
-print('Path ' + cwd.drive)
+print(cwd.parents[0])
 
-demo_file = Path(Path.joinpath(cwd, 'demo.txt'))
+demo_file = Path(Path.joinpath(cwd.parents[0], 'demo.txt'))
 
 # Get the file name
-print('\nfile name: ' + demo_file.name)
+print('\nfile name: ' + demo_file.parents[0])
 
 # Get the extension
 print('\nfile suffix: ' + demo_file.suffix)
